@@ -4,7 +4,9 @@ I'm sorry if it is not perfect, I'm currently on vacation and tried to be fast s
 I used AI to help on making the Frontend as close as possible to the one provided on the PDF.
 
 The Backend is a Spring Boot Application with the starting point being ./Backend/src/main/java/com/pictet/challenge/BackendApplication.java
+Last minute edit: I'm using JDK26 for the app itself. Rest is specified on POM.
 
 You can run the Backend via  (Windows) .\mvnw.cmd spring-boot:run (Bash) ./mvn spring-boot:run on the Backend folder
 
 The Frontend is an Angular.js application, just run ng serve on the Frontend folder.
+Last minute edit: I'm using Angular 22.1.6 with Node.js 22.23.2 and Typescript 6.0.3
