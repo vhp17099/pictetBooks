@@ -1,13 +1,11 @@
 package com.pictet.challenge;
 
-import org.h2.server.web.JakartaWebServlet;
 import com.pictet.challenge.services.BookService;
 import com.pictet.challenge.types.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
